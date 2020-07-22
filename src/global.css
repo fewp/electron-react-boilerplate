@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  transition: all var(--transition-speed) ease;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+:root {
+  font-size: 16px;
+  --transition-speed: 150ms;
+  --bg: linear-gradient(to left top, #C2D2ED 0%, #EAF2FF 100%);
+  --box-shadow: 0px 12px 20px rgba(34,37,59, 0.26);
+  --c1: #455DC7;
+  --c2: #23B5D3;
+  --c3: #30383F;
+  --c4: #ffffff;
+  --c5: #30383F;
+  --c7: #ffffff;
+  --c8: #eeeeee;
+}
+
+
+/* customizando a scrollbar */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--c7);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--c1);
+}
